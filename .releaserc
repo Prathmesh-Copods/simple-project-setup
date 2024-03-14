@@ -1,8 +1,7 @@
 branches:
   - main
 debug: false
-repositoryUrl: 
-  - "https://github.com/Prathmesh-Copods/simple-project-setup.git"
+repositoryUrl: "https://github.com/Prathmesh-Copods/simple-project-setup.git"
 ci: true
 dryRun: false
 plugins:
