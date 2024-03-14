@@ -42,4 +42,4 @@ jobs:
         [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
         nvm install 'lts/*' && npx semantic-release
       env:
-        GITHUB_TOKEN: ${{ secrets.ACTIONS_RELEASE_ACCESS_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
